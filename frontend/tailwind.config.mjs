@@ -55,6 +55,8 @@ module.exports = {
         silver: "#b8b8b8",
         midnightblue: "#4b176b",
         blueviolet: "#9747ff",
+        themeblue:"#D7E2FA",
+        textcolortheme:"#556EB2"
 
       },
       spacing: {},
