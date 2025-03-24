@@ -1,10 +1,21 @@
-import React from 'react';
-import { Carousel } from './main';
+// import React from 'react';
+// import { Carousel } from './main';
 
-export default function Page() {
+// export default function Page() {
+//   return (
+//     <div>
+//       <Carousel />
+//     </div>
+//   );
+// }
+import React from 'react'
+
+const page = () => {
   return (
     <div>
-      <Carousel />
+      
     </div>
-  );
+  )
 }
+
+export default page

@@ -8,3 +8,16 @@
   box-sizing: border-box;
   user-select: none;
 }
+a{
+  color: #556EB2 !important;
+  text-decoration: none;
+}
+h1{
+  font-size: 46px;
+  font-weight: bolder;
+}
+h3{
+  font-size: 28px;
+  font-weight: bolder;
+}
+

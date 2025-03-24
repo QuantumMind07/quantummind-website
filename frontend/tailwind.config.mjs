@@ -56,7 +56,8 @@ module.exports = {
         midnightblue: "#4b176b",
         blueviolet: "#9747ff",
         themeblue:"#D7E2FA",
-        textcolortheme:"#556EB2"
+        textcolortheme:"#556EB2",
+        btnhover:"rgb(114 147 236)"
 
       },
       spacing: {},
