@@ -13,7 +13,6 @@ export default async function Home() {
       <hr className="border-t-2 border-dotted border-gray-400 my-4" />
       <Whyus />
       <Template />
-      <Particles/>
       <ContactUsFrom data={countries} />
     </div>
   )
