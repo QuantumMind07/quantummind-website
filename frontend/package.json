@@ -13,14 +13,18 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.7",
     "@mui/material": "^6.4.7",
+    "@tabler/icons-react": "^3.31.0",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.5.0",
     "gsap": "^3.12.7",
     "lucide-react": "^0.483.0",
+    "motion": "^12.6.0",
     "next": "15.1.7",
     "ogl": "^1.0.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "rsuite": "^5.78.1"
+    "rsuite": "^5.78.1",
+    "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
     "postcss": "^8",
