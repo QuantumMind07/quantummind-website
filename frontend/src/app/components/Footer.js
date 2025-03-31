@@ -36,11 +36,11 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-2">Get in Touch</h4>
           <div className="flex items-center gap-2 text-lg">
             <PhoneFillIcon/>
-            <span>+91 77109 65198</span>
+            <span>+91 8452034160</span>
           </div>
           <div className="flex items-center gap-2 mt-2 text-lg">
             <EmailFillIcon/>
-            <span>abbasmurudkar18@gmail.com</span>
+            <span>info@quantummind.solutions</span>
           </div>
 
           <div className="flex gap-4 mt-4">
