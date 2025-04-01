@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const TermsPage = () => {
+const Page = () => {
   return (
     <div className="max-w-5xl mx-auto px-6 py-10">
       <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
@@ -42,4 +42,4 @@ const TermsPage = () => {
   );
 };
 
-export default TermsPage;
+export default Page;

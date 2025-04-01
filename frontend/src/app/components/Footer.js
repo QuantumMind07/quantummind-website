@@ -6,11 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-// Import policy components
-import Cancellation from "../cancellation";
-import Privacy from "../privacy";
-import Terms from "../terms";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -28,15 +24,15 @@ const Footer = () => {
           <ul className="space-y-2 text-lg">
             <li><a href="/about" className="hover:underline">About Us</a></li>
             <li><a href="/contact" className="hover:underline">Contact Us</a></li>
-            <li><a href="/templates" className="hover:underline">Templates</a></li>
+            <li><a href="/Templates" className="hover:underline">Templates</a></li>
           </ul>
         </section>
         <section className="w-[20%]">
           <h4 className="text-lg font-semibold mb-2">Policies</h4>
           <ul className="space-y-2 text-lg">
-            <li><a href="/terms" className="hover:underline">Terms & Conditions</a></li>
-            <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
-            <li><a href="/cancellation" className="hover:underline">Cancellation Policy</a></li>
+            <li><Link href="/Terms" className="hover:underline">Terms & Conditions</Link></li>
+            <li><Link href="/Privacy" className="hover:underline">Privacy Policy</Link></li>
+            <li><Link href="/Cancellation" className="hover:underline">Cancellation Policy</Link></li>
           </ul>
         </section>
         <section className="w-[25%]">

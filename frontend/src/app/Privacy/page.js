@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const PrivacyPolicy = () => {
+const Page = () => {
   return (
     <div className="max-w-3xl mx-auto p-6 space-y-6 text-gray-800">
       <h1 className="text-3xl font-bold text-center">Privacy Policy</h1>
@@ -76,4 +76,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default Page;
