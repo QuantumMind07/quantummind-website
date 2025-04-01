@@ -6,6 +6,12 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+// Import policy components
+import Cancellation from "../cancellation";
+import Privacy from "../privacy";
+import Terms from "../terms";
+
 const Footer = () => {
   return (
     <div className="footer-box bg-themeblue text-textcolortheme">
@@ -30,6 +36,7 @@ const Footer = () => {
           <ul className="space-y-2 text-lg">
             <li><a href="/terms" className="hover:underline">Terms & Conditions</a></li>
             <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
+            <li><a href="/cancellation" className="hover:underline">Cancellation Policy</a></li>
           </ul>
         </section>
         <section className="w-[25%]">
@@ -57,7 +64,7 @@ const Footer = () => {
             <LinkedInIcon/>
             </a>
           </div>
-          </section>
+        </section>
       </div>
       <div className="text-center text-sm mt-8 font-semibold">
         &copy; {new Date().getFullYear()} QUANTUM MIND. All rights reserved.
