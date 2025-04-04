@@ -25,10 +25,6 @@ const ContactUsForm = ({data}) => {
     <Input {...props} as="textarea" placeholder="Write Description Or Glimpse What You Really Want To Build" ref={ref} />
   ));
 
-  // const countryOptions = data.map((country)=>({
-  //   label: country.name.common,
-  //   value: country.name.common,
-  // }))
   const countryOptions = data.map((country)=>({
     label: country.name,
     value: country.name,

@@ -4,18 +4,11 @@ import Template from "./components/Home/Template";
 import Whyus from "./components/Home/Whyus";
 
 export default async function Home() {
-  // const response = await fetch("https://restcountries.com/v3.1/all");
-  // const countries = await response.json();
   const countries = [
     "IN",
     "USA",
     "UK"
   ]
-  // const countries = [
-  //   {
-  //     name:"INDIA"
-  //   }
-  // ]
   return(
     <div className="max-w-7xl mx-auto">
       <Content />
