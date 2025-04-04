@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/quantummind-website", 
-    assetPrefix: "/quantummind-website/",
+    basePath: "", 
+    assetPrefix: "",
 };
 
 export default nextConfig;
