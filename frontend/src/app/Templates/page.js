@@ -1,10 +1,10 @@
 import React from 'react';
-import { Carousel } from './main';
+import Templates from './main';
 
 export default function Page() {
   return (
     <div>
-      <Carousel />
+      <Templates />
     </div>
   );
 }
