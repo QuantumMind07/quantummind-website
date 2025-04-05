@@ -16,22 +16,13 @@ const ContactUsForm = ({data}) => {
     country: null,
     description: "",
   });
-
+  console.log(formData.description)
   const handleChange = (value, name) => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
-
-  const Textarea = React.forwardRef((props, ref) => (
-    <Input {...props} as="textarea" placeholder="Write Description Or Glimpse What You Really Want To Build" ref={ref} />
-  ));
-
-  // const countryOptions = data.map((country)=>({
-  //   label: country.name.common,
-  //   value: country.name.common,
-  // }))
   const countryOptions = data.map((country)=>({
-    label: country.name,
-    value: country.name,
+    label: country,
+    value: country,
   }))
   return (
     <div className="Form-Layout mt-[90px] mb-[90px]">
@@ -157,13 +148,7 @@ const ContactUsForm = ({data}) => {
               <Col xs={24} style={{ marginTop: "16px" }}>
                 <Form.Group controlId="Description">
                   <Form.ControlLabel>Description</Form.ControlLabel>
-                  <Form.Control
-                    rows={5}
-                    name="description"
-                    accepter={Textarea}
-                    value={formData.description}
-                    onChange={(value) => handleChange(value, "description")}
-                  />
+                  <Input as="textarea" rows={5} value={formData.description} onChange={(value) => handleChange(value, "description")} placeholder="Write Description Or Glimpse What You Really Want To Build" />
                 </Form.Group>
               </Col>
             </Row>
