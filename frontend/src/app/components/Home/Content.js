@@ -41,7 +41,6 @@ const Content = () => {
             src="/assets/image.png"
             width={500}
             height={400}
-            layout="intrinsic"
             alt="bot image"
             priority
           />

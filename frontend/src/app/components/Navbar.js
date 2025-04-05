@@ -9,7 +9,9 @@ const Navbar = () => {
     <header className="bg-themeblue w-full sticky top-0 shadow-md z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between pl-4 pr-4">
         <div>
+           <Link href="/" style={{textDecoration:"none"}}>
           <h1 className="text-textcolortheme font-bold text-9xl mq450:text-5xl">QUANTUM MIND</h1>
+           </Link>
         </div>
         <nav className="w-[40%] mq450:hidden">
           <ul className="w-full flex justify-between items-center text-textcolortheme text-base m-[0]">
